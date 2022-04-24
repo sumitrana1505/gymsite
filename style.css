@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.topleft{
+    width: 50%;
+    height: 70vh;
+}
+.topright{
+    width: 50%;
+    height: 70vh;
+    /* height: 50vh; */
+}
+.trendmill{
+    width:600px;
+    height:500px;
+}
+.section1{
+    height: 85vh;
+    background-color:  rgb(73 183 84);
+}
+.dumbell{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 40%;
+}
+.section1 h1{
+    font-size: 2rem;
+}
+.section2 h1{
+    font-size: 2.5rem;
+}
+.section2 p{
+    padding: 30px 8vw;
+    text-align: center;
+}
+
+.section2{
+    padding:90px;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 23vw;
+    border: 2px solid rgb(73 183 84);
+    border-radius: 20px;
+}
+.box ul li{
+    list-style: none;
+    margin: 12px 2px;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.section3{
+    padding: 103px;
+}
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+.buttons .btn{
+margin: 50px 10px;
+}
